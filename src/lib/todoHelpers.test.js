@@ -1,4 +1,4 @@
-import { addTodo, findById, toggleTodo, updateTodo } from './todoHelpers';
+import { addTodo, findById, toggleTodo, updateTodo, removeTodo } from './todoHelpers';
 
 // addTodo
 test('addTodo should add the passed todo to the list', () => {
