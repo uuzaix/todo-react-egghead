@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "json-server": "^0.9.4",
     "react-scripts": "0.8.5"
   },
   "dependencies": {
@@ -12,6 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "json": "json-server -p 8080 --watch db.json",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
